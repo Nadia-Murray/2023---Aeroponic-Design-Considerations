@@ -10,7 +10,7 @@ mclose()
 
 //Extracting Azimuth Angle
 [fd,SST,Sheetnames,Sheetpos] = xls_open('Orientation.xls')
-[Value,TextInd] = xls_read(fd,Sheetpos(1))
+[Value,TextInd] = xls_read(fd,Sheetpos(2))
 Az = Value(2:366,2:25)'
 mclose()
 Az = Az(:)
