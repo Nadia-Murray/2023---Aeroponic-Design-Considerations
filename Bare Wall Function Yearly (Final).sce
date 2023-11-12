@@ -268,13 +268,7 @@ end
     else 
         CV2C(i) = 0
         CV2H(i) = CV2
-        end 
-    
-    if info ~= 1
-    disp(info)
-    disp(i)
-    end
-    i=i+1
+        end
 end
 
 mprintf("J = %1.0f\n",J)
